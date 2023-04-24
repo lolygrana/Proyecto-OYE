@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,300;0,600;0,900;1,700&family=Roboto:ital,wght@0,300;1,100&family=Vollkorn:ital,wght@0,500;1,400&display=swap');
+
+    
+
+
+.logoyletras{
+    display: flex;
+}
+
+
+.body{
+    background-color: rgb(244, 241, 241);
+
+}
+main{
+    display: flex;
+    padding-top: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    margin-left: 30%;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor1{
+    width: 31%;    
+    padding-right: 10px;
+}
+.container2{
+    width: 70%;
+}
+.list-group-item{
+    background-color: rgb(244, 243, 243);
+}
+
+.logo{
+    width: 50px;
+}
+
+
+.letras{
+    color: blue;
+    font-family: 'Vollkorn', serif;
+    padding-top: 14px;
+}
+.tabla{
+    font-family: 'Vollkorn', serif;
+    color: rgb(26, 155, 235);
+    font-size: 25px;
+}
+.top{
+    font-family: 'Vollkorn', serif;
+    font-size: 30px;
+}
+th.top{
+    padding-left: 132px;
+    padding-top: 43px;
+}
+
+
+#botones{
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+    text-align: center;
+    height: 100%;
+    align-items: baseline;
+    padding-top: 21px;
+    padding-right: 3%;
+}
+.btn2{
+    width: 119px;
+}
+.cardPrincipal {
+    margin: 5px;
+    width: 75%;
+}
+
+.card-title{
+    font-family: 'Vollkorn', serif;
+    font-size: 30px;
+}
+.card-body{
+    background-color: rgb(221, 217, 217);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.img{
+    width: 468px;
+
+}
+.tituloContacto{
+    font-family: 'Vollkorn', serif;
+}
+
+@media (max-width: 991px) {
+    #botones {
+        flex-direction: column;
+    }
+    .menu{
+        justify-content: start;
+        margin-left: 0%;
+    }
+}
+@media (max-width: 770px) {
+    .card-body {
+        flex-direction: column;
+        align-items: center;
+    }
+    .cardPrincipal{
+    width: 100%;
+}
+.contenedor1 {
+    width: 100%;
+    margin-bottom: 10px;
+}
+}
+@media screen and (min-width: 770px) and (max-width: 1199px) {
+  .card-body {
+    height: 268px;
+  }
+}
+@media (max-width: 400px) {
+    .card-body{
+    height: 420px;
+    }
+}
+@media (max-width: 818px) {
+    th.top {
+    padding-left: 15px;
+}
+}
+
+@media screen and (max-width: 570px) {
+    th.top {
+    padding-left: 15px;
+}
+    td.paraOcultar{
+        display: none;
+}
+    th.paraOcultar{
+        display: none;
+    }
+    th.top{
+        display: flex;
+        justify-content: center;
+    }
+    .container2 {
+        width: 100%;
+    }
+    audio {
+        height: 45px;
+        width: 100%;
+    }
+}

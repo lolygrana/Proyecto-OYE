@@ -1,0 +1,25 @@
+
+.pie{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(34, 66, 251);
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: auto;
+}
+.pie p{
+    padding: 9px;
+    margin-bottom: 3px;
+}
+
+
+@media screen and (max-width: 570px) {
+    .Ocultar{
+        display: none;
+}
+    .pie{
+        justify-content: center;
+    }
+}

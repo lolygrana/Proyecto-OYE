@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,300;0,600;0,900;1,700&family=Roboto:ital,wght@0,300;1,100&family=Vollkorn:ital,wght@0,500;1,400&display=swap');
+
+.body2{
+    background-color: rgb(244, 241, 241);
+
+}
+
+div.formularioIniciar{
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        padding-left: 30%;
+        margin-top: 38px;
+        padding-bottom: 50px;
+        background-color: rgb(244, 241, 241);
+        min-height: 76.5%;
+        position: relative;
+}
+.tituloForm{
+    font-family: 'Vollkorn', serif;
+    margin-bottom: 0;
+}
+.asterisco{
+    color: rgb(44, 119, 241);
+}
+.boton{
+    margin-bottom: 32px;
+}
+hr{
+    margin: 0rem 0 1rem 0;
+}
+#root{
+    background-color: rgb(244, 241, 241);
+    height: 100vh;
+}

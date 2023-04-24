@@ -1,0 +1,17 @@
+#carouselExampleSlidesOnly {
+  height: 300px; /* altura fija del contenedor */
+}
+.contenedor1{
+    min-width: 50%;
+}
+
+.contenedor2 {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+  .carousel-item img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}

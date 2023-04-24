@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,300;0,600;0,900;1,700&family=Roboto:ital,wght@0,300;1,100&family=Vollkorn:ital,wght@0,500;1,400&display=swap');
+
+.song-list{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    padding-top: 10px;
+    padding-right: 20%;
+    padding-left: 20%;
+    margin-bottom: 50px;
+}
+div.card{
+    margin: 5px;
+}
+.bodyCard{
+    flex-wrap: wrap;
+    background-color: white;
+}
+
+.card-img, .card-img-top{
+    height: 100px;
+    padding: 10px;
+}
+.card-title{
+    font-size: 20px;
+}
+audio{
+    height: 45px;
+}
+.cards{
+    background-color: rgb(244, 241, 241);
+    padding-bottom: 50px;
+    min-height: 81.5%;
+    position: relative;
+}
+.tituloCanciones{
+    padding-left: 23%;
+    font-family: 'Vollkorn', serif;
+    font-size: 24px;
+}
+.containerBarra {
+    width: 100%;
+    padding-top: 20px;
+  }
+
+div.containerInput{
+    margin-right: 23%;
+    margin-left: 23%;
+}
+#root{
+    background-color: rgb(244, 241, 241);
+    height: 100vh;
+}
