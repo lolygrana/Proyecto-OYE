@@ -1,11 +1,11 @@
 import "../estilos/App.css";
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 
 const Top3 = () => {
   const [topThreeSongs, setTopThreeSongs] = useState([]);
 
   useEffect(() => {
-    fetch('src/datos.json')
+    fetch('../src/datos.json')
       .then(response => response.json())
       .then(data => {
         const filteredData = data.canciones.filter(song => song.reproducciones > 0);
